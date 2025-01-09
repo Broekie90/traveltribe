@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get Your App - Travel Tribe</title>
+    <style>
+        /* Global Styles */
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            color: #ccc;
+            background-color: #1f1f1f; /* Dark grey background */
+            line-height: 1.6;
+        }
+
+        header {
+            background: linear-gradient(45deg, #333, #444); /* Darker gradient */
+            color: #ffcc00; /* Danger yellow for the title */
+            padding: 1.5rem 2rem;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+            color: #ffcc00; /* Danger yellow */
+        }
+
+        header p {
+            font-size: 1.2rem;
+            margin-top: 0.5rem;
+            color: #e0e0e0; /* Light grey for subtitle */
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background: #2a2a2a; /* Dark grey navigation bar */
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+            padding: 1rem;
+        }
+
+        nav a {
+            margin: 0 1rem;
+            text-decoration: none;
+            color: #ffcc00; /* Danger yellow */
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #e0e0e0; /* Light grey on hover */
+        }
+
+        .hero {
+            text-align: center;
+            padding: 3rem 2rem;
+            color: #fff; /* White text for better contrast */
+            position: relative;
+            background: linear-gradient(45deg, #3a3a3a, #4a4a4a); /* Slightly lighter gradient */
+            overflow: hidden;
+        }
+
+        .hero h2 {
+            font-size: 2.5rem;
+            margin: 0;
+        }
+
+        .hero p {
+            font-size: 1.2rem;
+            margin: 1rem 0 2rem 0;
+            color: #e0e0e0;
+        }
+
+        .download-button {
+            display: inline-block;
+            padding: 0.8rem 2rem;
+            background-color: #ffcc00; /* Danger yellow for button */
+            color: #1f1f1f; /* Dark grey text for contrast */
+            text-decoration: none;
+            font-size: 1rem;
+            font-weight: bold;
+            border-radius: 8px;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+            transition: background-color 0.3s ease, transform 0.3s ease;
+        }
+
+        .download-button:hover {
+            background-color: #e0b000; /* Slightly darker yellow on hover */
+            transform: translateY(-2px);
+        }
+
+        footer {
+            text-align: center;
+            padding: 1.5rem 1rem;
+            background: #2a2a2a; /* Match navigation background */
+            color: #ccc;
+        }
+
+        footer p {
+            margin: 0;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2rem;
+            }
+
+            header p {
+                font-size: 1rem;
+            }
+
+            nav {
+                flex-direction: column;
+                text-align: center;
+                gap: 1rem;
+            }
+
+            nav a {
+                margin: 0.5rem 0;
+            }
+
+            .hero h2 {
+                font-size: 2rem;
+            }
+
+            .hero p {
+                font-size: 1rem;
+            }
+        }
+
+        .hero2 {
+        background: linear-gradient(135deg, #3a3a3a, #4a4a4a); /* Elegant grayish gradient */
+        color: white;
+        padding: 2rem;
+        text-align: center;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Slight shadow for depth */
+    }
+
+    .hero2 .hero-text ul {
+        list-style-type: disc; /* Standard bullet points */
+        list-style-position: inside; /* Bullet points inside the text */
+        margin: 0 auto; /* Center the list */
+        padding: 0;
+        display: inline-block; /* Makes the list inline for better centering */
+        text-align: left; /* Align text within the list to the left */
+    }
+
+    .hero2 .hero-text li {
+        font-size: 1.0rem; /* Slightly larger text */
+        line-height: 1.8; /* Better spacing between lines */
+        margin: 0.5rem 0; /* Spacing between list items */
+        color: white; /* Ensure text is white */
+    }
+
+    .hero2 .hero-text li::marker {
+        color: #ffcc00; /* Danger yellow for bullet points */
+    }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Travel Tribe</h1>
+    <p>Your next adventure, perfectly organized.</p>
+</header>
+
+<section class="hero">
+    <h2>Get the App</h2>
+    <p>Download our app to start planning your adventures on the go.</p>
+    <a href="https://www.travel-tribe.eu/login" class="download-button">Download the App</a>
+</section>
+<section class="hero2">
+    <div class="hero-text">
+        <ul>
+            <li>Plan your trip day by day</li>
+            <li>Trip Collaboration</li>
+            <li>Budget your trip and share costs</li>
+            <li>Create your Packing list</li>
+            <li>Local Cuisine suggestions</li>
+            <li>Weather forecast</li>
+        </ul>
+    </div>
+</section>
+
+<footer>
+    <p>&copy; 2025 Travel Tribe. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
